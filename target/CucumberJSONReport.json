@@ -1,0 +1,99 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-10-01T03:04:56.394Z",
+        "before": [
+          {
+            "result": {
+              "duration": 55758071300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.ReturnOrderTestCases.invokeBrowser()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "User is going to return the product",
+        "description": "",
+        "id": "returnorder-user-return-his-product;user-is-going-to-return-the-product",
+        "after": [
+          {
+            "result": {
+              "duration": 13745229100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.ReturnOrderTestCases.tear()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 290127400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on the find product page",
+            "match": {
+              "location": "StepDefinitions.ReturnOrderTestCases.User_is_on_the_find_product_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3385225600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user enters order id and finding the product",
+            "match": {
+              "location": "StepDefinitions.ReturnOrderTestCases.The_user_enters_order_id_and_finding_the_product()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 129965400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on return product button for returing the product",
+            "match": {
+              "location": "StepDefinitions.ReturnOrderTestCases.User_clicks_on_return_product_button_for_returing_the_product()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2052389400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User gets his return confirmation id",
+            "match": {
+              "location": "StepDefinitions.ReturnOrderTestCases.User_gets_his_return_confirmation_id()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "ReturnOrder user return his product",
+    "description": "  Description: Return Order Scenarios",
+    "id": "returnorder-user-return-his-product",
+    "keyword": "Feature",
+    "uri": "classpath:Features//ReturnOrder.feature",
+    "tags": []
+  }
+]

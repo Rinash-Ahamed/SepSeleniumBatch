@@ -16,6 +16,8 @@ public class ReturnOrderTestCases extends Global implements ReturnOrderObjects {
 	@Before("@regression")
 	public void invokeBrowser() {
 		
+		System.out.print("Testing!!!");
+		
 		launchBrowser("chrome", "https://return-order-app.herokuapp.com/");
 		
 		
